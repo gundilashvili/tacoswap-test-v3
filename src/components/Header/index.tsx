@@ -21,6 +21,8 @@ import UniBalanceContent from "./UniBalanceContent";
 import { UniIcon } from "pages/Farm/components/styled";
 import { ExternalLink } from "theme";
 import { useOnClickOutside } from "hooks/useOnClickOutside";
+import Pdf from '../../assets/pdf/TacoSwapWhitepaper.pdf'
+
 
 const HeaderFrame = styled.div`
   align-items: center;
@@ -493,7 +495,7 @@ export default function Header() {
                 </StyledDropDownDiv>
               )}
             </DropDownButton>
-            <StyledExternalLink href="https://v1.tacoswap.io/">
+            <StyledExternalLink href={Pdf} target = "_blank">
               Whitepaper
               <sup>
                 <ArrowIcon />
