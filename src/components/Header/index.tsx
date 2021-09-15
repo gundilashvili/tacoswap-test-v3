@@ -493,7 +493,7 @@ export default function Header() {
                 </StyledDropDownDiv>
               )}
             </DropDownButton>
-            <StyledExternalLink href="https://google.com/" style={{color: '#e64441'}}>
+            <StyledExternalLink href="https://google.com/" style={{color: '#e64441"}}>
                Whitepaper
               <sup>
                 <ArrowIcon />
