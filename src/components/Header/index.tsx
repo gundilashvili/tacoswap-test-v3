@@ -473,6 +473,12 @@ export default function Header() {
                 <ArrowIcon />
               </sup>
             </StyledExternalLink> 
+            <StyledExternalLink href={Pdf} target = "_blank">
+              Whitepaper
+              <sup>
+                <ArrowIcon />
+              </sup>
+            </StyledExternalLink> 
             <DropDownButton onClick={() => toggle()} dropDownOpen={dropDownOpen}>
               Governance &nbsp;
               <span>
@@ -494,13 +500,7 @@ export default function Header() {
                   </StyledExternalLinkDropDown>
                 </StyledDropDownDiv>
               )}
-            </DropDownButton>
-            <StyledExternalLink href={Pdf} target = "_blank">
-              Whitepaper
-              <sup>
-                <ArrowIcon />
-              </sup>
-            </StyledExternalLink> 
+            </DropDownButton> 
           </StyledLinks>
           <HeaderControls>
             <HeaderElement>
