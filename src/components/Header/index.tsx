@@ -470,8 +470,7 @@ export default function Header() {
               <sup>
                 <ArrowIcon />
               </sup>
-            </StyledExternalLink>
-           
+            </StyledExternalLink> 
             <DropDownButton onClick={() => toggle()} dropDownOpen={dropDownOpen}>
               Governance &nbsp;
               <span>
@@ -499,8 +498,7 @@ export default function Header() {
               <sup>
                 <ArrowIcon />
               </sup>
-            </StyledExternalLink>
-
+            </StyledExternalLink> 
           </StyledLinks>
           <HeaderControls>
             <HeaderElement>
