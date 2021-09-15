@@ -471,12 +471,7 @@ export default function Header() {
                 <ArrowIcon />
               </sup>
             </StyledExternalLink>
-            <StyledExternalLink href="https://v1.tacoswap.io/">
-              Whitepaper
-              <sup>
-                <ArrowIcon />
-              </sup>
-            </StyledExternalLink>
+           
             <DropDownButton onClick={() => toggle()} dropDownOpen={dropDownOpen}>
               Governance &nbsp;
               <span>
@@ -499,6 +494,13 @@ export default function Header() {
                 </StyledDropDownDiv>
               )}
             </DropDownButton>
+            <StyledExternalLink href="https://v1.tacoswap.io/">
+              Whitepaper
+              <sup>
+                <ArrowIcon />
+              </sup>
+            </StyledExternalLink>
+
           </StyledLinks>
           <HeaderControls>
             <HeaderElement>
