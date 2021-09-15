@@ -21,7 +21,7 @@ import UniBalanceContent from "./UniBalanceContent";
 import { UniIcon } from "pages/Farm/components/styled";
 import { ExternalLink } from "theme";
 import { useOnClickOutside } from "hooks/useOnClickOutside";
-import Pdf from "assets/pdf/TacoSwapWhitepaper.pdf";
+import Pdf from "../../assets/pdf/TacoSwapWhitepaper.pdf";
 
 
 const HeaderFrame = styled.div`
